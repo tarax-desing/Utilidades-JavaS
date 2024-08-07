@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: cursive, Helvetica, sans-serif;
+    color: brown;
+    background-color: azure;
+}
+
+h1 {
+    text-align: center;
+    margin: 1rem;
+}
+
+.container {
+    width: 80%;
+    max-width: 1000px;
+    margin: 1rem auto;
+    background-color: azure;
+}
+
+.imgGrande img {
+    width: 100%;
+    margin: 1rem 0;
+    border-radius: 8px;
+    border: 2px solid #fb8117;
+}
+
+.imgPeque {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+    cursor: pointer;
+
+}
+
+.imgPeque img {
+    max-width: 22%;
+    border: 2px solid #fb8117
+  
+}
