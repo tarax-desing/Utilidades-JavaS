@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ventanaImg.css">
+
+    <title>Ventana</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Ventana Modal</h1>
+        <p>La imagen seleccionada se mostrará en una ventana modal</p>
+
+        <div class="gallery">
+            <img src="img/code.jpg" alt="code" class="thumbnail" data-full="img/code.jpg">
+            <img src="img/seo.jpg" alt="seo" class="thumbnail" data-full="img/seo.jpg">
+            <img src="img/web-design.jpg" alt="web-design" class="thumbnail" data-full="img/web-design.jpg">
+            <img src="img/webPc.jpg" alt="webPc" class="thumbnail" data-full="img/webPc.jpg">
+        </div>
+    </div>
+  
+    <div id="imageModal" class="modal">
+        <span class="close">&times;</span>
+        <div class="modal-content">
+            <img src="" alt="Imagen ampliada" class="modal-image">
+        </div>
+
+    </div>
+
+    <script src="ventana.js"></script>
+</body>
+
+</html>
